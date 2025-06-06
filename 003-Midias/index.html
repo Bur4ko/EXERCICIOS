@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mídias em HTML</title>
+	</head>
+	<body>
+
+		<h1>Imagem Dinâmica</h1>
+		<p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+		<picture>
+			<source media="(max-width: 750px" srcset="./img/small.png" type="image/png">			
+			<source media="(max-width: 1050px" srcset="./img/medium.png" type="image/png">
+			<img src="./img/large.png" alt="ImagemFlexível">
+		</picture>
+
+		<h1>Reproduzindo Aúdios</h1>
+		<audio  controls preload="metadata">
+			<source src="./audio/same-old-mistakes.mp3" type="audio/mpeg">
+		</audio>
+
+		<h1>Inserindo Videos Localmente</h1>
+		<video controls poster="./img/akame-thumb.png" width="500px"> 
+			<source src="./video/video.mp4" type="video/mp4">
+		</video>
+
+		<h1>Inserindo Vídeos do YouTube</h1>
+
+		<iframe width="500" height="281,25" src="https://www.youtube.com/embed/bEmRxTG2ZEw?si=6kHPuwX66ADU-hHR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+	</body>
+</html>
