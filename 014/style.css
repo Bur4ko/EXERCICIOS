@@ -1,23 +1,17 @@
 body {
-	background-image: url("./img/wallpaper004.jpg");
+	height: 100vh;
+	background-color: black;
+	background-image: url('./img/wallpaper002.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-div.square {
-	display: inline-block;
+
+main {
+	background-color: white;
+	width: 400px;
+	padding: 10px;
+	margin: auto;
 	border: 2px solid black;
-	border-radius: 5px;
-	background-color: lightgray;
-	width: 300px;
-	height: 300px;
-}
-
-div#s1 {
-	background-color: skyblue;
-}
-
-div#s2 {
-	background-image: linear-gradient(to bottom, yellow, red);
-}
-
-div#s3 {
-	background-image: url("./img/pattern002.png");
+	border-radius: 10px;
 }
