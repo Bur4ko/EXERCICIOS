@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+	--font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 6em;
+	font-family: var(--font2);
+}
+
+header h2 {
+}
